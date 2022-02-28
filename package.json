@@ -4,7 +4,7 @@
   "description": "This is to test Login on LibreView web",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
   },
   "author": "Harshul",
   "license": "ISC",
